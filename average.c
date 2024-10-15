@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Calculate the average
-    float average = sum / 10;
+    float average = sum / (i - 1); 
 
     printf("Average: %.2f\n", average);
 
